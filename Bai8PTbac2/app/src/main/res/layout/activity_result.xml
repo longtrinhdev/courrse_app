@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Nghiệm của PT bậc 2"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:background="#15D0E8"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtShow"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center|start"
+        android:paddingLeft="8dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="#50F456"
+        android:text="Nghiệm:" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back" />
+</LinearLayout>

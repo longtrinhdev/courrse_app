@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SpinnerAC</string>
+    <string-array name="monhoc" >
+        <item >Toán</item>
+        <item >Văn</item>
+        <item >Anh</item>
+        <item >Khoa học</item>
+        <item >Lịch sử</item>
+        <item >Giáo dục công dân</item>
+    </string-array>
+</resources>

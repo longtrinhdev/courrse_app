@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#F0F"
+        android:text="@string/nhap_so_a" />
+
+    <EditText
+        android:id="@+id/edtNhapA"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/m_i_nh_p_s_a"
+        android:focusable="true"
+        android:inputType="textPersonName"
+        android:textColorHint="#757575" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#F0F"
+        android:text="@string/nh_p_s_b" />
+
+    <EditText
+        android:id="@+id/edtNhapB"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/m_i_nh_p_s_b"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/edtKQ"
+        android:layout_width="146dp"
+        android:layout_height="149dp"
+        android:layout_gravity="center"
+        android:background="#58CA5D"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/k_t_qu"
+        android:textColor="#37474F" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bntCong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background = "@drawable/btnpheptoan"
+            app:backgroundTint="@null"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/c_ng" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background = "@drawable/btnpheptoan"
+            app:backgroundTint="@null"
+            android:layout_weight="1"
+            android:text="@string/reset" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/btnpheptoan"
+            app:backgroundTint="@null"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Nhân" />
+
+        <Button
+            android:id="@+id/btnChia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/btnpheptoan"
+            app:backgroundTint="@null"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Chia" />
+    </LinearLayout>
+
+</LinearLayout>

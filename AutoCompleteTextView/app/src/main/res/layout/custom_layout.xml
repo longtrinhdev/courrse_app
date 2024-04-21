@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtRowCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "20sp"
+        android:textColor = "#000"
+        android:paddingTop = "10dp"
+        android:paddingStart = "8dp"
+        android:text="Hiển thị kết quả" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background ="#000" />
+
+</LinearLayout>

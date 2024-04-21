@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">app1-xulysukientrenview</string>
+    <string name="nhap_so_a">Nhap so A:</string>
+    <string name="m_i_nh_p_s_a">Mời nhập số a</string>
+    <string name="nh_p_s_b">Nhập số B:</string>
+    <string name="m_i_nh_p_s_b">Mời nhập số b</string>
+    <string name="k_t_qu">Kết Quả</string>
+    <string name="c_ng">Cộng</string>
+    <string name="reset">Reset</string>
+</resources>
